@@ -7,9 +7,10 @@ authors = ["sinder"]
 repository = "https://github.com/sinder38/kdb-zed-extension"
 languages = ["languages/kanata"]
 
+# TODO: go back to official repo once fix is merged
 [grammars.kanata]
-repository = "https://github.com/postsolar/tree-sitter-kanata"
-rev = "af53b4c35d6faa3b4ba7c317fb795a6eb679b42a"
+repository = "https://github.com/sinder38/tree-sitter-kanata"
+rev = "f26404b94db304ebad132778353fc6ce076114cc"
 
 [language_servers.kanata-lsp]
 name = "Kanata LSP"
