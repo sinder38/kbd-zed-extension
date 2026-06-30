@@ -1,0 +1,29 @@
+id = "kanata"
+name = "Kanata"
+description = "Kanata configuration file support"
+version = "0.0.1"
+schema_version = 1
+authors = ["sinder"]
+repository = "https://github.com/sinder38/kdb-zed-extension"
+languages = ["languages/kanata"]
+
+[grammars.kanata]
+repository = "https://github.com/postsolar/tree-sitter-kanata"
+rev = "af53b4c35d6faa3b4ba7c317fb795a6eb679b42a"
+
+[language_servers.kanata-lsp]
+name = "Kanata LSP"
+languages = ["Kanata"]
+
+# [grammars.kmonad]
+# repository = "https://github.com/postsolar/tree-sitter-kanata"
+# rev = "af53b4c35d6faa3b4ba7c317fb795a6eb679b42a"
+
+
+# [language_servers.kanata-lsp]
+# name = "KBD LSP"
+# languages = ["kanata", "kmonad"]
+
+# [language_servers.wplabs-lsp.language_ids]
+# "kanata" = "kanata"
+# "kmonad" = "kmonad"

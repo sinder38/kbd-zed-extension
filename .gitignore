@@ -1,0 +1,11 @@
+# Wild ignore
+.*
+!.gitignore
+
+# GitHub
+!.github
+
+# Zed extension
+grammars/
+target/
+extension.wasm

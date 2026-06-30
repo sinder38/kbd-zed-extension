@@ -1,0 +1,13 @@
+[package]
+name = "kbd-zed-extension"
+version = "0.0.1"
+edition = "2021"
+description = "Zed extension for Kanata configuration files"
+publish = false
+license = "LGPL-3.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
